@@ -1,0 +1,12 @@
+com\demo\marvelProject\dto\ThumbnailDTO.class
+com\demo\marvelProject\dto\UrlDTO.class
+com\demo\marvelProject\feign\MarvelCharacterClient.class
+com\demo\marvelProject\dto\MarvelDTO.class
+com\demo\marvelProject\dto\StoriesItemDTO.class
+com\demo\marvelProject\dto\ResultDTO.class
+com\demo\marvelProject\dto\DataDTO.class
+com\demo\marvelProject\dto\ComicsItemDTO.class
+com\demo\marvelProject\MarvelApplication.class
+com\demo\marvelProject\dto\ComicsDTO.class
+com\demo\marvelProject\dto\StoriesDTO.class
+com\demo\marvelProject\restController\MarvelController.class
