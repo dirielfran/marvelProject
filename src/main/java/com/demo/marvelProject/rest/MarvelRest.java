@@ -43,11 +43,14 @@ public class MarvelRest {
         this.offSet = offSet;
     }
 
+    public MarvelRest() {
+    }
+
     public MarvelDTO findAll() {
         HttpHeaders headers = new HttpHeaders();
         headers.setAccept(Arrays.asList(MediaType.APPLICATION_JSON));
         HttpEntity<MarvelDTO> entity = new HttpEntity<MarvelDTO>(headers);
-        String url = urlMarvel+"?limit"+limit+"&offset"+offSet+"&apikey="+apiKey+"&hash="+hash+"&ts="+ts;
+        String url = urlMarvel+"?limit="+limit+"&offset="+offSet+"&apikey="+apiKey+"&hash="+hash+"&ts="+ts;
         MarvelDTO response = restTemplate.exchange(url, HttpMethod.GET, entity, MarvelDTO.class).getBody();
         return response;
     }
